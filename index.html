@@ -1,118 +1,271 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Roza Faiq | Portfolio</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background: #0f172a;
-            color: white;
-        }
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Roza Faiq | Learning Roadmap</title>
 
-        .container {
-            max-width: 900px;
-            margin: auto;
-            padding: 40px 20px;
-        }
+  <style>
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+    }
 
-        .hero {
-            text-align: center;
-            padding: 80px 20px;
-        }
+    body{
+      font-family: Arial, Helvetica, sans-serif;
+      background:#081229;
+      color:#ffffff;
+      line-height:1.7;
+    }
 
-        h1 {
-            font-size: 3rem;
-            margin-bottom: 10px;
-        }
+    .container{
+      width:90%;
+      max-width:1000px;
+      margin:auto;
+    }
 
-        .subtitle {
-            color: #94a3b8;
-            font-size: 1.2rem;
-        }
+    header{
+      min-height:100vh;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      text-align:center;
+      padding:40px 0;
+    }
 
-        .btn {
-            display: inline-block;
-            margin-top: 25px;
-            padding: 12px 24px;
-            background: #2563eb;
-            color: white;
-            text-decoration: none;
-            border-radius: 10px;
-        }
+    h1{
+      font-size:4rem;
+      margin-bottom:10px;
+    }
 
-        .section {
-            margin-top: 60px;
-        }
+    .subtitle{
+      color:#a8b3cf;
+      font-size:1.4rem;
+      margin-bottom:30px;
+    }
 
-        .card {
-            background: #111827;
-            padding: 20px;
-            border-radius: 14px;
-            margin-top: 15px;
-        }
+    .btn{
+      display:inline-block;
+      padding:14px 28px;
+      background:#3461ff;
+      color:#fff;
+      text-decoration:none;
+      border-radius:12px;
+      margin:8px;
+      font-weight:bold;
+    }
 
-        a {
-            color: #60a5fa;
-        }
-    </style>
+    section{
+      padding:70px 0;
+    }
+
+    h2{
+      font-size:2.3rem;
+      margin-bottom:25px;
+    }
+
+    .card{
+      background:#0d1b36;
+      border-radius:18px;
+      padding:28px;
+      margin-bottom:25px;
+    }
+
+    .phase-title{
+      font-size:1.5rem;
+      margin-bottom:15px;
+    }
+
+    .book{
+      margin-bottom:20px;
+      padding-bottom:15px;
+      border-bottom:1px solid rgba(255,255,255,0.08);
+    }
+
+    .book:last-child{
+      border-bottom:none;
+      padding-bottom:0;
+      margin-bottom:0;
+    }
+
+    .book h3{
+      margin-bottom:8px;
+    }
+
+    ul{
+      padding-left:25px;
+    }
+
+    li{
+      margin-bottom:10px;
+    }
+
+    a{
+      color:#78a6ff;
+    }
+
+    footer{
+      text-align:center;
+      color:#8fa0c2;
+      padding:40px 0;
+    }
+
+    @media (max-width: 700px){
+      h1{
+        font-size:2.7rem;
+      }
+
+      .subtitle{
+        font-size:1.1rem;
+      }
+
+      h2{
+        font-size:2rem;
+      }
+    }
+  </style>
 </head>
 <body>
-    <div class="container">
-        <section class="hero">
-            <h1>Roza Faiq</h1>
-            <p class="subtitle">
-                IT Student | Networking & Cybersecurity Enthusiast
-            </p>
-            <a class="btn" href="https://github.com/roza-faiq" target="_blank">
-                View GitHub
-            </a>
-        </section>
 
-        <section class="section">
-            <h2>About Me</h2>
-            <div class="card">
-                <p>
-                    I am an IT student currently building a strong foundation in networking and cybersecurity.
-                    I am studying CompTIA Network+, Linux, and CCNA while documenting my learning journey through
-                    hands-on labs and GitHub projects.
-                </p>
-            </div>
-        </section>
+<header>
+  <div class="container">
+    <h1>Roza Faiq</h1>
+    <p class="subtitle">
+      IT Student | Networking & Cybersecurity Enthusiast
+    </p>
 
-        <section class="section">
-            <h2>Currently Learning</h2>
-            <div class="card">
-                <ul>
-                    <li>CompTIA Network+</li>
-                    <li>Linux Basics</li>
-                    <li>CCNA</li>
-                    <li>Python Fundamentals</li>
-                </ul>
-            </div>
-        </section>
+    <a class="btn" href="https://github.com/roza-faiq" target="_blank">GitHub</a>
+    <a class="btn" href="https://www.linkedin.com/in/roza-faiq-29856b421" target="_blank">LinkedIn</a>
+  </div>
+</header>
 
-        <section class="section">
-            <h2>Projects</h2>
-            <div class="card">
-                <h3>Network+ Notes</h3>
-                <p>Personal notes and labs while studying CompTIA Network+.</p>
-                <a href="https://github.com/roza-faiq/network-plus-notes" target="_blank">
-                    Open Repository
-                </a>
-            </div>
-        </section>
+<section>
+  <div class="container">
+    <h2>About Me</h2>
 
-        <section class="section">
-            <h2>Contact</h2>
-            <div class="card">
-                <p><strong>LinkedIn:</strong> Roza Faiq</p>
-                <p><strong>GitHub:</strong> github.com/roza-faiq</p>
-            </div>
-        </section>
+    <div class="card">
+      <p>
+        I am an IT student currently building a strong foundation in networking
+        and cybersecurity. I am studying CompTIA Network+, Linux, CCNA, and
+        security technologies while documenting my learning journey through
+        hands-on labs and GitHub projects.
+      </p>
     </div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <h2>Learning Roadmap</h2>
+
+    <div class="card">
+      <div class="phase-title">🟢 Phase 1: The Foundation</div>
+
+      <div class="book">
+        <h3>CompTIA Network+ Study Guide</h3>
+        <p><strong>Author:</strong> Todd Lammle</p>
+        <p><strong>Level:</strong> Beginner</p>
+      </div>
+
+      <div class="book">
+        <h3>Linux Basics for Hackers</h3>
+        <p><strong>Author:</strong> OccupyTheWeb</p>
+        <p><strong>Level:</strong> Beginner</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="phase-title">🟡 Phase 2: Associate Level</div>
+
+      <div class="book">
+        <h3>Cisco CCNA 200-301 Official Cert Guide</h3>
+        <p><strong>Author:</strong> Wendell Odom</p>
+        <p><strong>Level:</strong> Intermediate</p>
+      </div>
+
+      <div class="book">
+        <h3>CompTIA Security+ Study Guide</h3>
+        <p><strong>Author:</strong> Mike Chapple</p>
+        <p><strong>Level:</strong> Intermediate</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="phase-title">🔵 Phase 3: Advanced Analyst</div>
+
+      <div class="book">
+        <h3>Practical Packet Analysis</h3>
+        <p><strong>Author:</strong> Chris Sanders</p>
+      </div>
+
+      <div class="book">
+        <h3>Applied Network Security Monitoring</h3>
+        <p><strong>Authors:</strong> Chris Sanders & Jason Smith</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="phase-title">🔴 Phase 4: Professional & Automation</div>
+
+      <div class="book">
+        <h3>Fortinet FortiGate NGFW Handbook / NSE 4</h3>
+      </div>
+
+      <div class="book">
+        <h3>Network Programmability and Automation</h3>
+        <p><strong>Authors:</strong> Jason Edelman, Scott S. Lowe, Matt Oswalt</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <h2>Labs & Notes</h2>
+
+    <div class="card">
+      <ul>
+        <li>CompTIA Network+ Notes</li>
+        <li>Linux Commands Practice</li>
+        <li>CCNA Labs</li>
+        <li>Wireshark Packet Analysis</li>
+        <li>Python Fundamentals</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <h2>Projects</h2>
+
+    <div class="card">
+      <h3>Network+ Notes</h3>
+      <p>Personal notes and labs while studying CompTIA Network+.</p>
+      <br>
+      <a href="https://github.com/roza-faiq/network-plus-notes" target="_blank">Open Repository</a>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <h2>Contact</h2>
+
+    <div class="card">
+      <p><strong>GitHub:</strong> github.com/roza-faiq</p>
+      <p><strong>LinkedIn:</strong> linkedin.com/in/roza-faiq-29856b421</p>
+      <p><strong>Location:</strong> Sulaymaniyah, Kurdistan Region, Iraq</p>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <p>© 2026 Roza Faiq</p>
+  </div>
+</footer>
+
 </body>
 </html>
